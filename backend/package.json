@@ -1,0 +1,22 @@
+{
+  "name": "job-alert-portal-backend",
+  "version": "1.0.0",
+  "description": "Job Alert Portal Backend API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["job", "alerts", "portal"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "@supabase/supabase-js": "^2.37.0"
+  }
+}
